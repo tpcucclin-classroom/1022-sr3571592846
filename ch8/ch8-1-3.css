@@ -75,19 +75,29 @@ figure {
 }
 
 #menu li {
-    background-color: lightgreen;
+    display: table-cell;
+    background-image: url(img/btn1.png);
+    background-size: contain;
     list-style-type: none;
-    display: inline;
     font-size: 24px;
-    padding: 0px 5px;
+    width: 150px;
+    border: 1px blue dashed;
+}
+
+#menu ul {
+    display: table;
+    border-spacing: 5px;
 }
 
 #menu li a {
+    display: block;
+    text-align: center;
     color: black;
     text-decoration-line: none;
 }
 
 #menu li a:hover {
-    background-color: lightblue;
+    background-image: url(img/btn2.png);
+    background-size: contain;
     color: brown;
 }
