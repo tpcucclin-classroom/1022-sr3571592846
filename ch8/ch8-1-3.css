@@ -76,7 +76,7 @@ figure {
 
 #menu li {
     display: table-cell;
-    background-image: url(img/btn2.png);
+    background-image: url(img/btn1.png);
     background-size: contain;
     list-style-type: none;
     font-size: 24px;
@@ -97,7 +97,8 @@ figure {
 }
 
 #menu li a:hover {
-    background-image: url(img/btn1.png);
+    /*background-image: url(img/btn1.png);*/
+    background-color: aquamarine;
     background-size: contain;
     color: brown;
 }
